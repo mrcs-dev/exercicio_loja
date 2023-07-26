@@ -4,21 +4,25 @@
     box-sizing: border-box;
 }
 
+.store-front {
+    height: 300px;
+}
+
 header,
 section h2,
 section h3 {
-    font-family: 'Bungee', cursive;
+    font-family: 'Tektur', cursive;
     font-weight: normal;
 }
 
 body, input, textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'REM', sans-serif;
 }
 
 header { 
     padding: 16px 0;
-    background-color: rgb(241, 5, 5);
-    color: rgb(255, 255, 255);
+    background-color: rgb(10, 218, 114);
+    color: rgb(2, 66, 34);
 }
 
 header h1,
@@ -33,7 +37,7 @@ header nav li {
 }
 
 header nav li a {
-    color: antiquewhite;
+    color: rgb(2, 66, 34);
 }
 
 .container {
@@ -50,7 +54,7 @@ section .container {
 }
 
 .marcas img {
-    height: 24px;
+    height: 32px;
 }
 
 .marcas li {
@@ -71,7 +75,7 @@ section h2 {
 }
 
 section {
-    color: rgb(58, 2, 2);
+    color: rgb(2, 66, 34);
 }
 
 section p {
@@ -123,21 +127,21 @@ section h3 {
 }
 
 form button {
-background-color:rgb(165, 6, 6);
+background-color:rgb(2, 66, 34);
 border: none;
 cursor: pointer;
 }
 
 form button:hover {
-    background-color: rgb(116, 6, 6);
+    background-color: rgb(10, 218, 114);
 }
 
 input:focus, textarea:focus {
-    outline-color: purple;
+    outline-color: rgb(10, 218, 114);
 }
 
 footer {
-    background-color:rgb(58, 2, 2) ;
+    background-color:rgb(10, 218, 114) ;
     color: #ffff;
     padding: 16px 0;
 }
